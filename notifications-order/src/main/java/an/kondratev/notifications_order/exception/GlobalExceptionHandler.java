@@ -1,23 +1,24 @@
-package na.kondratev.security_oauth2.exception;
+package an.kondratev.notifications_order.exception;
 
-import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
+@Slf4j
 @ControllerAdvice
-@Controller
 public class GlobalExceptionHandler {
 
     @ExceptionHandler(IllegalArgumentException.class)
-    public String handleIllegalArgumentException(IllegalArgumentException e, Model model) {
-        model.addAttribute("errorMessage", e.getMessage());
-        return "error";
+    public ResponseEntity<String> handleIllegalArgumentException(IllegalArgumentException e) {
+        log.error(e.getMessage());
+        return ResponseEntity.badRequest().body(e.getMessage());
     }
 
     @ExceptionHandler(Exception.class)
-    public String handleException(Exception e, Model model) {
-        model.addAttribute("errorMessage", e.getMessage());
-        return "error";
+    public ResponseEntity<String> handleException(Exception e) {
+        log.error(e.getMessage());
+        return new ResponseEntity<>(e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
     }
 }

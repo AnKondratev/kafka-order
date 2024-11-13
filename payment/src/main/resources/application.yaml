@@ -12,3 +12,10 @@ spring:
       ddl-auto: create-drop
     database: postgresql
     show-sql: true
+
+logging:
+  level:
+    root: INFO
+    a.k.p: ERROR
+    a.k: ERROR
+    an.kondratev: INFO
