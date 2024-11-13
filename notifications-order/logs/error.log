@@ -1,0 +1,38 @@
+2024-11-13 16:51:03 ERROR a.k.n.controller.OrderController - Order #1123 not found
+2024-11-13 16:51:07 ERROR a.k.n.controller.MessagesController - Order #1123 not found
+2024-11-13 16:51:07 ERROR a.k.n.e.GlobalExceptionHandler - Order not found
+2024-11-13 18:25:32 ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in an.kondratev.notifications_order.controller.OrderController required a bean of type 'an.kondratev.notifications_order.service.OrderServiceInterface' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'an.kondratev.notifications_order.service.OrderServiceInterface' in your configuration.
+
+2024-11-13 18:26:37 ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in an.kondratev.notifications_order.controller.OrderController required a bean of type 'an.kondratev.notifications_order.service.OrderServiceInterface' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'an.kondratev.notifications_order.service.OrderServiceInterface' in your configuration.
+
+2024-11-13 18:28:11 ERROR a.k.n.controller.OrderController - Order #2 not found
+2024-11-13 18:28:25 ERROR a.k.n.controller.OrderController - Order #2 not found
+2024-11-13 18:28:37 ERROR a.k.n.controller.OrderController - Order #2 not found
+2024-11-13 18:30:13 ERROR a.k.n.controller.OrderController - Order #2 not found
+2024-11-13 18:30:21 ERROR a.k.n.controller.OrderController - Order #2 not found

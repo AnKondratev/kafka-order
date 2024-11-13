@@ -1,0 +1,97 @@
+2024-11-13 16:28:58 INFO  a.k.s.ShippingOrderApplication - Starting ShippingOrderApplication using Java 17.0.11 with PID 8956 (D:\javaProjects\KafkaProject\shipping-order\target\classes started by Andrey in D:\javaProjects\KafkaProject\shipping-order)
+2024-11-13 16:28:58 INFO  a.k.s.ShippingOrderApplication - No active profile set, falling back to 1 default profile: "default"
+2024-11-13 16:29:03 INFO  a.k.s.ShippingOrderApplication - Started ShippingOrderApplication in 5.397 seconds (process running for 6.023)
+2024-11-13 16:29:43 INFO  a.k.s.kafka.KafkaConsumer - New order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Processing, paymentStatus=true)
+2024-11-13 16:29:43 INFO  a.k.s.service.OrderService - Saving order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Processing, paymentStatus=true)
+2024-11-13 16:29:44 INFO  a.k.s.kafka.KafkaConsumer - Received Message: {"orderId":1,"customer":"John Doe","totalPrice":4891.00,"orderStatus":"Processing","paymentStatus":true}
+2024-11-13 16:29:44 INFO  a.k.s.kafka.KafkaConsumer - New order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Processing, paymentStatus=true)
+2024-11-13 16:29:44 INFO  a.k.s.service.OrderService - Saving order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Processing, paymentStatus=true)
+2024-11-13 16:29:44 INFO  a.k.s.kafka.KafkaConsumer - Received Message: {"orderId":1,"customer":"John Doe","totalPrice":4891.00,"orderStatus":"Processing","paymentStatus":true}
+2024-11-13 16:29:44 INFO  a.k.s.kafka.KafkaConsumer - New order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Processing, paymentStatus=true)
+2024-11-13 16:29:44 INFO  a.k.s.service.OrderService - Saving order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Processing, paymentStatus=true)
+2024-11-13 16:29:44 INFO  a.k.s.kafka.KafkaConsumer - Received Message: {"orderId":1,"customer":"John Doe","totalPrice":4891.00,"orderStatus":"Processing","paymentStatus":true}
+2024-11-13 16:29:44 INFO  a.k.s.kafka.KafkaConsumer - New order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Processing, paymentStatus=true)
+2024-11-13 16:29:44 INFO  a.k.s.service.OrderService - Saving order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Processing, paymentStatus=true)
+2024-11-13 16:29:44 INFO  a.k.s.kafka.KafkaConsumer - Received Message: {"orderId":1,"customer":"John Doe","totalPrice":4891.00,"orderStatus":"Processing","paymentStatus":true}
+2024-11-13 16:29:44 INFO  a.k.s.kafka.KafkaConsumer - New order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Processing, paymentStatus=true)
+2024-11-13 16:29:44 INFO  a.k.s.service.OrderService - Saving order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Processing, paymentStatus=true)
+2024-11-13 16:29:44 INFO  a.k.s.kafka.KafkaConsumer - Received Message: {"orderId":1,"customer":"John Doe","totalPrice":4891.00,"orderStatus":"Processing","paymentStatus":true}
+2024-11-13 16:29:50 INFO  a.k.s.service.OrderService - Retrieving order by id: 1
+2024-11-13 16:29:50 INFO  a.k.s.controller.OrderController - Order #1 shipped
+2024-11-13 16:29:50 INFO  a.k.s.service.OrderService - Updating order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Deliverable, paymentStatus=true)
+2024-11-13 16:29:52 INFO  a.k.s.service.OrderService - Retrieving order by id: 1123
+2024-11-13 16:29:52 ERROR a.k.s.controller.OrderController - Order #1123 not found
+2024-11-13 16:29:56 INFO  a.k.s.service.OrderService - Retrieving order by id: 1
+2024-11-13 16:29:56 INFO  a.k.s.controller.MessagesController - Order #1 sent successfully
+2024-11-13 16:29:57 INFO  a.k.s.service.OrderService - Retrieving order by id: 1123
+2024-11-13 16:29:57 ERROR a.k.s.controller.MessagesController - Order #1123 not found
+2024-11-13 16:29:57 ERROR a.k.s.e.GlobalExceptionHandler - Order not found
+2024-11-13 16:46:14 INFO  a.k.s.kafka.KafkaConsumer - New order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Processing, paymentStatus=true)
+2024-11-13 16:46:14 INFO  a.k.s.service.OrderService - Saving order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Processing, paymentStatus=true)
+2024-11-13 16:46:14 INFO  a.k.s.kafka.KafkaConsumer - Received Message: {"orderId":1,"customer":"John Doe","totalPrice":4891.00,"orderStatus":"Processing","paymentStatus":true}
+2024-11-13 16:46:14 INFO  a.k.s.kafka.KafkaConsumer - New order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Processing, paymentStatus=true)
+2024-11-13 16:46:14 INFO  a.k.s.service.OrderService - Saving order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Processing, paymentStatus=true)
+2024-11-13 16:46:14 INFO  a.k.s.kafka.KafkaConsumer - Received Message: {"orderId":1,"customer":"John Doe","totalPrice":4891.00,"orderStatus":"Processing","paymentStatus":true}
+2024-11-13 16:46:14 INFO  a.k.s.kafka.KafkaConsumer - New order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Processing, paymentStatus=true)
+2024-11-13 16:46:14 INFO  a.k.s.service.OrderService - Saving order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Processing, paymentStatus=true)
+2024-11-13 16:46:14 INFO  a.k.s.kafka.KafkaConsumer - Received Message: {"orderId":1,"customer":"John Doe","totalPrice":4891.00,"orderStatus":"Processing","paymentStatus":true}
+2024-11-13 16:46:14 INFO  a.k.s.kafka.KafkaConsumer - New order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Processing, paymentStatus=true)
+2024-11-13 16:46:14 INFO  a.k.s.service.OrderService - Saving order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Processing, paymentStatus=true)
+2024-11-13 16:46:14 INFO  a.k.s.kafka.KafkaConsumer - Received Message: {"orderId":1,"customer":"John Doe","totalPrice":4891.00,"orderStatus":"Processing","paymentStatus":true}
+2024-11-13 16:46:14 INFO  a.k.s.kafka.KafkaConsumer - New order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Processing, paymentStatus=true)
+2024-11-13 16:46:14 INFO  a.k.s.service.OrderService - Saving order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Processing, paymentStatus=true)
+2024-11-13 16:46:14 INFO  a.k.s.kafka.KafkaConsumer - Received Message: {"orderId":1,"customer":"John Doe","totalPrice":4891.00,"orderStatus":"Processing","paymentStatus":true}
+2024-11-13 16:46:16 INFO  a.k.s.service.OrderService - Retrieving order by id: 1
+2024-11-13 16:46:16 INFO  a.k.s.controller.OrderController - Order #1 shipped
+2024-11-13 16:46:16 INFO  a.k.s.service.OrderService - Updating order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Deliverable, paymentStatus=true)
+2024-11-13 16:49:13 INFO  a.k.s.ShippingOrderApplication - Starting ShippingOrderApplication using Java 17.0.11 with PID 2472 (D:\javaProjects\KafkaProject\shipping-order\target\classes started by Andrey in D:\javaProjects\KafkaProject\shipping-order)
+2024-11-13 16:49:13 INFO  a.k.s.ShippingOrderApplication - No active profile set, falling back to 1 default profile: "default"
+2024-11-13 16:49:17 INFO  a.k.s.ShippingOrderApplication - Started ShippingOrderApplication in 5.25 seconds (process running for 5.931)
+2024-11-13 16:49:31 INFO  a.k.s.kafka.KafkaConsumer - New order: Order(orderId=1, customer=John Doe, totalPrice=1222.75, orderStatus=Processing, paymentStatus=true)
+2024-11-13 16:49:31 INFO  a.k.s.service.OrderService - Saving order: Order(orderId=1, customer=John Doe, totalPrice=1222.75, orderStatus=Processing, paymentStatus=true)
+2024-11-13 16:49:31 INFO  a.k.s.kafka.KafkaConsumer - Received Message: {"orderId":1,"customer":"John Doe","totalPrice":1222.75,"orderStatus":"Processing","paymentStatus":true}
+2024-11-13 16:49:31 INFO  a.k.s.kafka.KafkaConsumer - New order: Order(orderId=1, customer=John Doe, totalPrice=1222.75, orderStatus=Processing, paymentStatus=true)
+2024-11-13 16:49:31 INFO  a.k.s.service.OrderService - Saving order: Order(orderId=1, customer=John Doe, totalPrice=1222.75, orderStatus=Processing, paymentStatus=true)
+2024-11-13 16:49:31 INFO  a.k.s.kafka.KafkaConsumer - Received Message: {"orderId":1,"customer":"John Doe","totalPrice":1222.75,"orderStatus":"Processing","paymentStatus":true}
+2024-11-13 16:49:31 INFO  a.k.s.kafka.KafkaConsumer - New order: Order(orderId=1, customer=John Doe, totalPrice=1222.75, orderStatus=Processing, paymentStatus=true)
+2024-11-13 16:49:31 INFO  a.k.s.service.OrderService - Saving order: Order(orderId=1, customer=John Doe, totalPrice=1222.75, orderStatus=Processing, paymentStatus=true)
+2024-11-13 16:49:31 INFO  a.k.s.kafka.KafkaConsumer - Received Message: {"orderId":1,"customer":"John Doe","totalPrice":1222.75,"orderStatus":"Processing","paymentStatus":true}
+2024-11-13 16:49:31 INFO  a.k.s.kafka.KafkaConsumer - New order: Order(orderId=1, customer=John Doe, totalPrice=1222.75, orderStatus=Processing, paymentStatus=true)
+2024-11-13 16:49:31 INFO  a.k.s.service.OrderService - Saving order: Order(orderId=1, customer=John Doe, totalPrice=1222.75, orderStatus=Processing, paymentStatus=true)
+2024-11-13 16:49:31 INFO  a.k.s.kafka.KafkaConsumer - Received Message: {"orderId":1,"customer":"John Doe","totalPrice":1222.75,"orderStatus":"Processing","paymentStatus":true}
+2024-11-13 16:49:31 INFO  a.k.s.kafka.KafkaConsumer - New order: Order(orderId=1, customer=John Doe, totalPrice=1222.75, orderStatus=Processing, paymentStatus=true)
+2024-11-13 16:49:31 INFO  a.k.s.service.OrderService - Saving order: Order(orderId=1, customer=John Doe, totalPrice=1222.75, orderStatus=Processing, paymentStatus=true)
+2024-11-13 16:49:31 INFO  a.k.s.kafka.KafkaConsumer - Received Message: {"orderId":1,"customer":"John Doe","totalPrice":1222.75,"orderStatus":"Processing","paymentStatus":true}
+2024-11-13 16:49:32 INFO  a.k.s.service.OrderService - Retrieving order by id: 1
+2024-11-13 16:49:33 INFO  a.k.s.controller.OrderController - Order #1 shipped
+2024-11-13 16:49:33 INFO  a.k.s.service.OrderService - Updating order: Order(orderId=1, customer=John Doe, totalPrice=1222.75, orderStatus=Deliverable, paymentStatus=true)
+2024-11-13 16:49:34 INFO  a.k.s.service.OrderService - Retrieving order by id: 1
+2024-11-13 16:49:34 INFO  a.k.s.controller.MessagesController - Order #1 sent successfully
+2024-11-13 16:50:54 INFO  a.k.s.service.OrderService - Retrieving order by id: 1123
+2024-11-13 16:50:54 ERROR a.k.s.controller.OrderController - Order #1123 not found
+2024-11-13 16:50:58 INFO  a.k.s.service.OrderService - Retrieving order by id: 1123
+2024-11-13 16:50:58 ERROR a.k.s.controller.MessagesController - Order #1123 not found
+2024-11-13 16:50:58 ERROR a.k.s.e.GlobalExceptionHandler - Order not found
+2024-11-13 18:42:48 INFO  a.k.s.ShippingOrderApplication - Starting ShippingOrderApplication using Java 17.0.11 with PID 9704 (D:\javaProjects\KafkaProject\shipping-order\target\classes started by Andrey in D:\javaProjects\KafkaProject\shipping-order)
+2024-11-13 18:42:48 INFO  a.k.s.ShippingOrderApplication - No active profile set, falling back to 1 default profile: "default"
+2024-11-13 18:42:51 INFO  a.k.s.ShippingOrderApplication - Started ShippingOrderApplication in 4.049 seconds (process running for 4.619)
+2024-11-13 18:43:25 INFO  a.k.s.kafka.KafkaConsumer - New order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Processing, paymentStatus=true)
+2024-11-13 18:43:25 INFO  a.k.s.service.OrderService - Saving order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Processing, paymentStatus=true)
+2024-11-13 18:43:25 INFO  a.k.s.kafka.KafkaConsumer - Received Message: {"orderId":1,"customer":"John Doe","totalPrice":4891.00,"orderStatus":"Processing","paymentStatus":true}
+2024-11-13 18:43:25 INFO  a.k.s.kafka.KafkaConsumer - New order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Processing, paymentStatus=true)
+2024-11-13 18:43:25 INFO  a.k.s.service.OrderService - Saving order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Processing, paymentStatus=true)
+2024-11-13 18:43:25 INFO  a.k.s.kafka.KafkaConsumer - Received Message: {"orderId":1,"customer":"John Doe","totalPrice":4891.00,"orderStatus":"Processing","paymentStatus":true}
+2024-11-13 18:43:25 INFO  a.k.s.kafka.KafkaConsumer - New order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Processing, paymentStatus=true)
+2024-11-13 18:43:25 INFO  a.k.s.service.OrderService - Saving order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Processing, paymentStatus=true)
+2024-11-13 18:43:25 INFO  a.k.s.kafka.KafkaConsumer - Received Message: {"orderId":1,"customer":"John Doe","totalPrice":4891.00,"orderStatus":"Processing","paymentStatus":true}
+2024-11-13 18:43:25 INFO  a.k.s.kafka.KafkaConsumer - New order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Processing, paymentStatus=true)
+2024-11-13 18:43:25 INFO  a.k.s.service.OrderService - Saving order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Processing, paymentStatus=true)
+2024-11-13 18:43:25 INFO  a.k.s.kafka.KafkaConsumer - Received Message: {"orderId":1,"customer":"John Doe","totalPrice":4891.00,"orderStatus":"Processing","paymentStatus":true}
+2024-11-13 18:43:25 INFO  a.k.s.kafka.KafkaConsumer - New order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Processing, paymentStatus=true)
+2024-11-13 18:43:25 INFO  a.k.s.service.OrderService - Saving order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Processing, paymentStatus=true)
+2024-11-13 18:43:25 INFO  a.k.s.kafka.KafkaConsumer - Received Message: {"orderId":1,"customer":"John Doe","totalPrice":4891.00,"orderStatus":"Processing","paymentStatus":true}
+2024-11-13 18:43:27 INFO  a.k.s.service.OrderService - Retrieving order by id: 1
+2024-11-13 18:43:27 INFO  a.k.s.controller.OrderController - Order #1 shipped
+2024-11-13 18:43:27 INFO  a.k.s.service.OrderService - Updating order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Deliverable, paymentStatus=true)
+2024-11-13 18:43:30 INFO  a.k.s.service.OrderService - Retrieving order by id: 1
+2024-11-13 18:43:30 INFO  a.k.s.controller.MessagesController - Order #1 sent successfully

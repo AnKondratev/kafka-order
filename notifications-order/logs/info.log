@@ -1,0 +1,112 @@
+2024-11-13 16:29:03 INFO  a.k.n.NotificationsOrderApplication - Starting NotificationsOrderApplication using Java 17.0.11 with PID 9056 (D:\javaProjects\KafkaProject\notifications-order\target\classes started by Andrey in D:\javaProjects\KafkaProject\notifications-order)
+2024-11-13 16:29:03 INFO  a.k.n.NotificationsOrderApplication - No active profile set, falling back to 1 default profile: "default"
+2024-11-13 16:29:07 INFO  a.k.n.NotificationsOrderApplication - Started NotificationsOrderApplication in 4.206 seconds (process running for 4.889)
+2024-11-13 16:29:56 INFO  a.k.n.kafka.KafkaConsumer - New order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Deliverable, paymentStatus=true)
+2024-11-13 16:29:56 INFO  a.k.n.service.OrderService - Saving order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Deliverable, paymentStatus=true)
+2024-11-13 16:29:56 INFO  a.k.n.kafka.KafkaConsumer - New order: {"orderId":1,"customer":"John Doe","totalPrice":4891.00,"orderStatus":"Deliverable","paymentStatus":true}
+2024-11-13 16:29:56 INFO  a.k.n.kafka.KafkaConsumer - New order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Deliverable, paymentStatus=true)
+2024-11-13 16:29:56 INFO  a.k.n.service.OrderService - Saving order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Deliverable, paymentStatus=true)
+2024-11-13 16:29:56 INFO  a.k.n.kafka.KafkaConsumer - New order: {"orderId":1,"customer":"John Doe","totalPrice":4891.00,"orderStatus":"Deliverable","paymentStatus":true}
+2024-11-13 16:29:56 INFO  a.k.n.kafka.KafkaConsumer - New order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Deliverable, paymentStatus=true)
+2024-11-13 16:29:56 INFO  a.k.n.service.OrderService - Saving order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Deliverable, paymentStatus=true)
+2024-11-13 16:29:56 INFO  a.k.n.kafka.KafkaConsumer - New order: {"orderId":1,"customer":"John Doe","totalPrice":4891.00,"orderStatus":"Deliverable","paymentStatus":true}
+2024-11-13 16:29:56 INFO  a.k.n.kafka.KafkaConsumer - New order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Deliverable, paymentStatus=true)
+2024-11-13 16:29:56 INFO  a.k.n.service.OrderService - Saving order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Deliverable, paymentStatus=true)
+2024-11-13 16:29:56 INFO  a.k.n.kafka.KafkaConsumer - New order: {"orderId":1,"customer":"John Doe","totalPrice":4891.00,"orderStatus":"Deliverable","paymentStatus":true}
+2024-11-13 16:29:56 INFO  a.k.n.kafka.KafkaConsumer - New order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Deliverable, paymentStatus=true)
+2024-11-13 16:29:56 INFO  a.k.n.service.OrderService - Saving order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Deliverable, paymentStatus=true)
+2024-11-13 16:29:56 INFO  a.k.n.kafka.KafkaConsumer - New order: {"orderId":1,"customer":"John Doe","totalPrice":4891.00,"orderStatus":"Deliverable","paymentStatus":true}
+2024-11-13 16:30:01 INFO  a.k.n.service.OrderService - Retrieving order by id: 1123
+2024-11-13 16:30:02 ERROR a.k.n.controller.OrderController - Order #1123 not found
+2024-11-13 16:30:03 INFO  a.k.n.service.OrderService - Retrieving order by id: 1
+2024-11-13 16:30:03 INFO  a.k.n.controller.OrderController - Order #1 shipped
+2024-11-13 16:30:03 INFO  a.k.n.service.OrderService - Updating order: 1
+2024-11-13 16:30:03 INFO  a.k.n.service.OrderService - Order status #1  updated, Order delivered!
+2024-11-13 16:30:06 INFO  a.k.n.service.OrderService - Retrieving order by id: 1
+2024-11-13 16:30:06 INFO  a.k.n.controller.MessagesController - Order sent successfully
+2024-11-13 16:30:08 INFO  a.k.n.service.OrderService - Retrieving order by id: 1123
+2024-11-13 16:30:08 ERROR a.k.n.controller.MessagesController - Order #1123 not found
+2024-11-13 16:30:08 ERROR a.k.n.e.GlobalExceptionHandler - Order not found
+2024-11-13 16:49:15 INFO  a.k.n.NotificationsOrderApplication - Starting NotificationsOrderApplication using Java 17.0.11 with PID 16948 (D:\javaProjects\KafkaProject\notifications-order\target\classes started by Andrey in D:\javaProjects\KafkaProject\notifications-order)
+2024-11-13 16:49:15 INFO  a.k.n.NotificationsOrderApplication - No active profile set, falling back to 1 default profile: "default"
+2024-11-13 16:49:19 INFO  a.k.n.NotificationsOrderApplication - Started NotificationsOrderApplication in 4.458 seconds (process running for 5.128)
+2024-11-13 16:49:34 INFO  a.k.n.kafka.KafkaConsumer - New order: Order(orderId=1, customer=John Doe, totalPrice=1222.75, orderStatus=Deliverable, paymentStatus=true)
+2024-11-13 16:49:34 INFO  a.k.n.service.OrderService - Saving order: Order(orderId=1, customer=John Doe, totalPrice=1222.75, orderStatus=Deliverable, paymentStatus=true)
+2024-11-13 16:49:34 INFO  a.k.n.kafka.KafkaConsumer - New order: {"orderId":1,"customer":"John Doe","totalPrice":1222.75,"orderStatus":"Deliverable","paymentStatus":true}
+2024-11-13 16:49:34 INFO  a.k.n.kafka.KafkaConsumer - New order: Order(orderId=1, customer=John Doe, totalPrice=1222.75, orderStatus=Deliverable, paymentStatus=true)
+2024-11-13 16:49:34 INFO  a.k.n.service.OrderService - Saving order: Order(orderId=1, customer=John Doe, totalPrice=1222.75, orderStatus=Deliverable, paymentStatus=true)
+2024-11-13 16:49:34 INFO  a.k.n.kafka.KafkaConsumer - New order: {"orderId":1,"customer":"John Doe","totalPrice":1222.75,"orderStatus":"Deliverable","paymentStatus":true}
+2024-11-13 16:49:34 INFO  a.k.n.kafka.KafkaConsumer - New order: Order(orderId=1, customer=John Doe, totalPrice=1222.75, orderStatus=Deliverable, paymentStatus=true)
+2024-11-13 16:49:34 INFO  a.k.n.service.OrderService - Saving order: Order(orderId=1, customer=John Doe, totalPrice=1222.75, orderStatus=Deliverable, paymentStatus=true)
+2024-11-13 16:49:34 INFO  a.k.n.kafka.KafkaConsumer - New order: {"orderId":1,"customer":"John Doe","totalPrice":1222.75,"orderStatus":"Deliverable","paymentStatus":true}
+2024-11-13 16:49:34 INFO  a.k.n.kafka.KafkaConsumer - New order: Order(orderId=1, customer=John Doe, totalPrice=1222.75, orderStatus=Deliverable, paymentStatus=true)
+2024-11-13 16:49:34 INFO  a.k.n.service.OrderService - Saving order: Order(orderId=1, customer=John Doe, totalPrice=1222.75, orderStatus=Deliverable, paymentStatus=true)
+2024-11-13 16:49:34 INFO  a.k.n.kafka.KafkaConsumer - New order: {"orderId":1,"customer":"John Doe","totalPrice":1222.75,"orderStatus":"Deliverable","paymentStatus":true}
+2024-11-13 16:49:34 INFO  a.k.n.kafka.KafkaConsumer - New order: Order(orderId=1, customer=John Doe, totalPrice=1222.75, orderStatus=Deliverable, paymentStatus=true)
+2024-11-13 16:49:34 INFO  a.k.n.service.OrderService - Saving order: Order(orderId=1, customer=John Doe, totalPrice=1222.75, orderStatus=Deliverable, paymentStatus=true)
+2024-11-13 16:49:34 INFO  a.k.n.kafka.KafkaConsumer - New order: {"orderId":1,"customer":"John Doe","totalPrice":1222.75,"orderStatus":"Deliverable","paymentStatus":true}
+2024-11-13 16:49:35 INFO  a.k.n.service.OrderService - Retrieving order by id: 1
+2024-11-13 16:49:35 INFO  a.k.n.controller.OrderController - Order #1 shipped
+2024-11-13 16:49:35 INFO  a.k.n.service.OrderService - Updating order: 1
+2024-11-13 16:49:35 INFO  a.k.n.service.OrderService - Order status #1  updated, Order delivered!
+2024-11-13 16:49:36 INFO  a.k.n.service.OrderService - Retrieving order by id: 1
+2024-11-13 16:49:36 INFO  a.k.n.controller.MessagesController - Order sent successfully
+2024-11-13 16:49:40 INFO  a.k.n.service.OrderService - Retrieving order by id: 1
+2024-11-13 16:49:40 INFO  a.k.n.controller.OrderController - Order #1 shipped
+2024-11-13 16:49:40 INFO  a.k.n.service.OrderService - Updating order: 1
+2024-11-13 16:49:40 INFO  a.k.n.service.OrderService - Order status #1  updated, Order delivered!
+2024-11-13 16:51:03 INFO  a.k.n.service.OrderService - Retrieving order by id: 1123
+2024-11-13 16:51:03 ERROR a.k.n.controller.OrderController - Order #1123 not found
+2024-11-13 16:51:07 INFO  a.k.n.service.OrderService - Retrieving order by id: 1123
+2024-11-13 16:51:07 ERROR a.k.n.controller.MessagesController - Order #1123 not found
+2024-11-13 16:51:07 ERROR a.k.n.e.GlobalExceptionHandler - Order not found
+2024-11-13 18:25:31 INFO  a.k.n.controller.OrderControllerTest - Starting OrderControllerTest using Java 17.0.11 with PID 6484 (started by Andrey in D:\javaProjects\KafkaProject\notifications-order)
+2024-11-13 18:25:31 INFO  a.k.n.controller.OrderControllerTest - No active profile set, falling back to 1 default profile: "default"
+2024-11-13 18:26:36 INFO  a.k.n.controller.OrderControllerTest - Starting OrderControllerTest using Java 17.0.11 with PID 17276 (started by Andrey in D:\javaProjects\KafkaProject\notifications-order)
+2024-11-13 18:26:36 INFO  a.k.n.controller.OrderControllerTest - No active profile set, falling back to 1 default profile: "default"
+2024-11-13 18:28:09 INFO  a.k.n.controller.OrderControllerTest - Starting OrderControllerTest using Java 17.0.11 with PID 9084 (started by Andrey in D:\javaProjects\KafkaProject\notifications-order)
+2024-11-13 18:28:09 INFO  a.k.n.controller.OrderControllerTest - No active profile set, falling back to 1 default profile: "default"
+2024-11-13 18:28:11 INFO  a.k.n.controller.OrderControllerTest - Started OrderControllerTest in 2.27 seconds (process running for 3.278)
+2024-11-13 18:28:11 ERROR a.k.n.controller.OrderController - Order #2 not found
+2024-11-13 18:28:11 INFO  a.k.n.controller.OrderController - Order #1 shipped
+2024-11-13 18:28:23 INFO  a.k.n.controller.OrderControllerTest - Starting OrderControllerTest using Java 17.0.11 with PID 6756 (started by Andrey in D:\javaProjects\KafkaProject\notifications-order)
+2024-11-13 18:28:23 INFO  a.k.n.controller.OrderControllerTest - No active profile set, falling back to 1 default profile: "default"
+2024-11-13 18:28:25 INFO  a.k.n.controller.OrderControllerTest - Started OrderControllerTest in 2.316 seconds (process running for 3.331)
+2024-11-13 18:28:25 ERROR a.k.n.controller.OrderController - Order #2 not found
+2024-11-13 18:28:35 INFO  a.k.n.controller.OrderControllerTest - Starting OrderControllerTest using Java 17.0.11 with PID 5632 (started by Andrey in D:\javaProjects\KafkaProject\notifications-order)
+2024-11-13 18:28:35 INFO  a.k.n.controller.OrderControllerTest - No active profile set, falling back to 1 default profile: "default"
+2024-11-13 18:28:37 INFO  a.k.n.controller.OrderControllerTest - Started OrderControllerTest in 2.483 seconds (process running for 3.505)
+2024-11-13 18:28:37 ERROR a.k.n.controller.OrderController - Order #2 not found
+2024-11-13 18:30:11 INFO  a.k.n.controller.OrderControllerTest - Starting OrderControllerTest using Java 17.0.11 with PID 14704 (started by Andrey in D:\javaProjects\KafkaProject\notifications-order)
+2024-11-13 18:30:11 INFO  a.k.n.controller.OrderControllerTest - No active profile set, falling back to 1 default profile: "default"
+2024-11-13 18:30:13 INFO  a.k.n.controller.OrderControllerTest - Started OrderControllerTest in 2.297 seconds (process running for 3.272)
+2024-11-13 18:30:13 ERROR a.k.n.controller.OrderController - Order #2 not found
+2024-11-13 18:30:19 INFO  a.k.n.controller.OrderControllerTest - Starting OrderControllerTest using Java 17.0.11 with PID 16904 (started by Andrey in D:\javaProjects\KafkaProject\notifications-order)
+2024-11-13 18:30:19 INFO  a.k.n.controller.OrderControllerTest - No active profile set, falling back to 1 default profile: "default"
+2024-11-13 18:30:21 INFO  a.k.n.controller.OrderControllerTest - Started OrderControllerTest in 2.396 seconds (process running for 3.496)
+2024-11-13 18:30:21 ERROR a.k.n.controller.OrderController - Order #2 not found
+2024-11-13 18:30:21 INFO  a.k.n.controller.OrderController - Order #1 shipped
+2024-11-13 18:42:56 INFO  a.k.n.NotificationsOrderApplication - Starting NotificationsOrderApplication using Java 17.0.11 with PID 14448 (D:\javaProjects\KafkaProject\notifications-order\target\classes started by Andrey in D:\javaProjects\KafkaProject\notifications-order)
+2024-11-13 18:42:56 INFO  a.k.n.NotificationsOrderApplication - No active profile set, falling back to 1 default profile: "default"
+2024-11-13 18:42:59 INFO  a.k.n.NotificationsOrderApplication - Started NotificationsOrderApplication in 4.056 seconds (process running for 4.61)
+2024-11-13 18:43:30 INFO  a.k.n.kafka.KafkaConsumer - New order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Deliverable, paymentStatus=true)
+2024-11-13 18:43:30 INFO  a.k.n.service.OrderService - Saving order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Deliverable, paymentStatus=true)
+2024-11-13 18:43:30 INFO  a.k.n.kafka.KafkaConsumer - New order: {"orderId":1,"customer":"John Doe","totalPrice":4891.00,"orderStatus":"Deliverable","paymentStatus":true}
+2024-11-13 18:43:30 INFO  a.k.n.kafka.KafkaConsumer - New order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Deliverable, paymentStatus=true)
+2024-11-13 18:43:30 INFO  a.k.n.service.OrderService - Saving order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Deliverable, paymentStatus=true)
+2024-11-13 18:43:30 INFO  a.k.n.kafka.KafkaConsumer - New order: {"orderId":1,"customer":"John Doe","totalPrice":4891.00,"orderStatus":"Deliverable","paymentStatus":true}
+2024-11-13 18:43:30 INFO  a.k.n.kafka.KafkaConsumer - New order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Deliverable, paymentStatus=true)
+2024-11-13 18:43:30 INFO  a.k.n.service.OrderService - Saving order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Deliverable, paymentStatus=true)
+2024-11-13 18:43:30 INFO  a.k.n.kafka.KafkaConsumer - New order: {"orderId":1,"customer":"John Doe","totalPrice":4891.00,"orderStatus":"Deliverable","paymentStatus":true}
+2024-11-13 18:43:30 INFO  a.k.n.kafka.KafkaConsumer - New order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Deliverable, paymentStatus=true)
+2024-11-13 18:43:30 INFO  a.k.n.service.OrderService - Saving order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Deliverable, paymentStatus=true)
+2024-11-13 18:43:30 INFO  a.k.n.kafka.KafkaConsumer - New order: {"orderId":1,"customer":"John Doe","totalPrice":4891.00,"orderStatus":"Deliverable","paymentStatus":true}
+2024-11-13 18:43:30 INFO  a.k.n.kafka.KafkaConsumer - New order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Deliverable, paymentStatus=true)
+2024-11-13 18:43:30 INFO  a.k.n.service.OrderService - Saving order: Order(orderId=1, customer=John Doe, totalPrice=4891.00, orderStatus=Deliverable, paymentStatus=true)
+2024-11-13 18:43:30 INFO  a.k.n.kafka.KafkaConsumer - New order: {"orderId":1,"customer":"John Doe","totalPrice":4891.00,"orderStatus":"Deliverable","paymentStatus":true}
+2024-11-13 18:43:32 INFO  a.k.n.service.OrderService - Retrieving order by id: 1
+2024-11-13 18:43:32 INFO  a.k.n.controller.OrderController - Order #1 shipped
+2024-11-13 18:43:32 INFO  a.k.n.service.OrderService - Updating order: 1
+2024-11-13 18:43:32 INFO  a.k.n.service.OrderService - Order status #1  updated, Order delivered!
+2024-11-13 18:43:34 INFO  a.k.n.service.OrderService - Retrieving order by id: 1
+2024-11-13 18:43:34 INFO  a.k.n.controller.MessagesController - Order sent successfully

@@ -1,0 +1,3 @@
+2024-11-13 16:50:54 ERROR a.k.s.controller.OrderController - Order #1123 not found
+2024-11-13 16:50:58 ERROR a.k.s.controller.MessagesController - Order #1123 not found
+2024-11-13 16:50:58 ERROR a.k.s.e.GlobalExceptionHandler - Order not found
