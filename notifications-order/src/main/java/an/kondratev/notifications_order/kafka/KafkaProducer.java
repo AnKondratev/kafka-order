@@ -14,10 +14,13 @@ public class KafkaProducer {
 
     private final KafkaTemplate<String, String> kafkaTemplate;
 
+
     public void sandMessageWithRetry(String order, int maxRetries) throws ExecutionException, InterruptedException {
         for (int attempt = 0; attempt < maxRetries; attempt++) {
             try {
                 kafkaTemplate.send("update_status", order).get();
+                log.info("Message sent successfully on attempt: {}", attempt + 1);
+                return;
             } catch (Exception e) {
                 log.error("Error sending order: {}: {}", attempt + 1, e.getMessage());
                 if (attempt == maxRetries - 1) {
@@ -26,10 +29,11 @@ public class KafkaProducer {
                 }
                 try {
                     log.info("Sleeping for 5 seconds...");
-                    Thread.sleep(1000);
+                    Thread.sleep(5000);
                 } catch (InterruptedException e1) {
                     log.error("Error sleeping for 5 seconds: {}", e1.getMessage());
                     Thread.currentThread().interrupt();
+                    throw e1;
                 }
             }
         }
