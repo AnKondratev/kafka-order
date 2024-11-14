@@ -18,6 +18,8 @@ public class KafkaProducer {
         for (int attempt = 0; attempt < maxRetries; attempt++) {
             try {
                 kafkaTemplate.send("payed_orders", order).get();
+                log.info("Message sent successfully on attempt: {}", attempt + 1);
+                return;
             } catch (Exception e) {
                 log.error("Error sending order: {}: {}", attempt + 1, e.getMessage());
                 if (attempt == maxRetries - 1) {
@@ -30,6 +32,7 @@ public class KafkaProducer {
                 } catch (InterruptedException e1) {
                     log.error("Error sleeping for 5 seconds: {}", e1.getMessage());
                     Thread.currentThread().interrupt();
+                    throw e1;
                 }
             }
         }

@@ -14,7 +14,6 @@ public class KafkaProducer {
 
     private final KafkaTemplate<String, String> kafkaTemplate;
 
-
     public void sandMessageWithRetry(String order, int maxRetries) throws ExecutionException, InterruptedException {
         for (int attempt = 0; attempt < maxRetries; attempt++) {
             try {
@@ -39,3 +38,6 @@ public class KafkaProducer {
         }
     }
 }
+
+
+
